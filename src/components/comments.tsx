@@ -8,5 +8,7 @@ interface Props {
 }
 
 export const Comments: React.FunctionComponent<Props> = ({ url, identifier, title }) => (
-  <DiscussionEmbed shortname="krzysztofzuraw-blog" config={{ url, identifier, title }} />
+  <div style={{ width: '100%' }}>
+    <DiscussionEmbed shortname="krzysztofzuraw-blog" config={{ url, identifier, title }} />
+  </div>
 );
