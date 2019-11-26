@@ -1,16 +1,14 @@
 'use strict';
 module.exports = {
   siteMetadata: {
-    siteName: 'Krzysztof Żuraw blog',
-    author: 'Krzysztof Żuraw',
-    description: 'Krzysztof Żuraw personal blog: TypeScript, JavaScript & FE development.',
-    siteUrl: 'https://krzysztofzuraw.com',
+    siteName: 'Danny Denenberg\'s Blog',
+    author: 'Danny Denenberg',
+    description: 'Danny Denenberg\'s personal blog: TypeScript, JavaScript, Mathematics, and Java development.',
+    siteUrl: 'https://dannydenenberg.com',
     social: {
-      twitter: 'https://twitter.com/krzysztof_zuraw',
-      linkedin: 'https://pl.linkedin.com/in/krzysztofzuraw',
-      github: 'https://github.com/krzysztofzuraw',
-      email: 'mailto:noaaln@fastmail.com',
-      speakerDeck: 'https://speakerdeck.com/krzysztofzuraw',
+      linkedin: 'https://pl.linkedin.com/in/dannydenenberg',
+      github: 'https://github.com/dannydenenberg',
+      email: 'mailto:dannydeneberg@gmail.com',
     },
   },
   plugins: [
