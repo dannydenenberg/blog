@@ -30,6 +30,7 @@ const Bio: React.FunctionComponent = () => {
         marginBottom: rhythm(2.5),
       }}
     >
+      <!--
       <Image
         fixed={data.avatar!.childImageSharp!.fixed}
         alt={author}
@@ -43,6 +44,7 @@ const Bio: React.FunctionComponent = () => {
           borderRadius: `50%`,
         }}
       />
+-->
       <p>
         Written by <strong>{author}</strong> who lives and works in Wrocław.
         {` `}
